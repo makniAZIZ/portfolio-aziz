@@ -1,0 +1,52 @@
+.work {
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  overflow: hidden;
+
+  span {
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+    left: 30px;
+  }
+
+  h3 {
+    opacity: 0;
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 10%;
+    transform: translateY(15px);
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    span {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    h3 {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .overlay {
+      opacity: 1;
+    }
+  }
+}
+
+.overlay {
+  background-color: #6c6ce5dc;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}

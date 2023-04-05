@@ -1,0 +1,28 @@
+//Your customizations must come before bootstrap import
+
+$enable-shadows: true;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1080px,
+);
+
+$input-btn-padding-y: 8px;
+$input-btn-padding-x: 32px;
+$btn-border-radius:60px;
+
+
+$dark: #353353;
+$primary : #FF4C60;
+$secondary: rgb(108, 108, 229);
+$tertiary : rgb(249, 215, 76);
+$min-contrast-ratio: 3;
+
+$line-height-lg:1.7;
+$body-color:  #333;
+$body-bg: #F9F9FF;
+$text-muted:#cfcfd9;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

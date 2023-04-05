@@ -1,0 +1,17 @@
+.sectionTitle {
+    font-size: 36px;
+    margin: 0;
+    margin-left: 14px;
+    position: relative;
+}
+
+.sectionTitle::before {
+    content: "";
+    background-image: url("../public/decorations/dots-titles.svg");
+    display: block;
+    height: 37px;
+    left: -14px;
+    top: -14px;
+    position: absolute;
+    width: 37px;
+}

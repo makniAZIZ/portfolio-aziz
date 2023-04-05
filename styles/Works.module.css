@@ -1,0 +1,47 @@
+.work {
+  background-color: white;
+  background-position: center;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  height: 300px;
+  overflow: hidden;
+}
+.work span {
+  color: white;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+  left: 30px;
+}
+.work h3 {
+  opacity: 0;
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 10%;
+  transform: translateY(15px);
+  transition: all 0.3s ease;
+}
+.work:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.work:hover h3 {
+  opacity: 1;
+  transform: translateY(0);
+}
+.work:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  background-color: rgba(108, 108, 229, 0.862745098);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=Works.module.css.map */

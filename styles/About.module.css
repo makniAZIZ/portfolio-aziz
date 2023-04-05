@@ -1,0 +1,21 @@
+.progress {
+  height: 8px;
+}
+
+.progressBar {
+  height: 100%;
+}
+
+.dialog::before {
+  content: "";
+  position: absolute;
+  transform: translateX(-100%);
+  top: 50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 18px solid white;
+  border-bottom: 12px solid transparent;
+  display: inline-block;
+}/*# sourceMappingURL=About.module.css.map */

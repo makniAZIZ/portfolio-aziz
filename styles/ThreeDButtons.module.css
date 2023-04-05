@@ -1,0 +1,21 @@
+.button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: bold;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0deg, 0%, 100%);
+}
+.button:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+.button:active {
+  background-color: rgb(255, 56, 86);
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}/*# sourceMappingURL=ThreeDButtons.module.css.map */
