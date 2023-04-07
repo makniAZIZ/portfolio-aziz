@@ -16,5 +16,11 @@
     "slug": "https://cocktails-kappa.vercel.app/",
     "illustration": "cocktail.jpg",
     "categorie": "React"
+  },
+  {
+    "name": "MEDIAFEST",
+    "slug": "https://previewer.adalo.com/188f85bd-680d-420d-b495-6c2ebb0b5437?target=717fim4g1y97upuf35m409gix&params=%7B%7D",
+    "illustration": "cns.jpg",
+    "categorie": " CMS adalo"
   }
 ]
