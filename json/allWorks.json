@@ -22,5 +22,11 @@
     "slug": "https://previewer.adalo.com/188f85bd-680d-420d-b495-6c2ebb0b5437?target=717fim4g1y97upuf35m409gix&params=%7B%7D",
     "illustration": "cns.jpg",
     "categorie": " CMS adalo"
+  },
+  {
+    "name": "nouveau-jeux",
+    "slug": "https://des-nouveau-jeux.vercel.app/",
+    "illustration": "jeux1.jpg",
+    "categorie": " NEXT.JS"
   }
 ]
