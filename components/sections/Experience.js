@@ -30,6 +30,15 @@ function Experience() {
     },
     //
     {
+      yearStart: 2022,
+      yearEnd: 2023,
+      title: "devloppent web",
+
+      description:
+        "un stage de formation au développement web a la societe VERMEG au service et de devloppent web  .",
+      type: "job", // study / job
+    },
+    {
       yearStart: 2020,
       yearEnd: 2022,
       title: "Service Commerciale",

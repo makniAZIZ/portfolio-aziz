@@ -6,7 +6,7 @@ function About() {
   const aboutAchievements = [
     {
       icon: "bi-hand-thumbs-up",
-      number: 32,
+      number: 28,
       name: "Projets terminés",
     },
     {
@@ -16,12 +16,12 @@ function About() {
     },
     {
       icon: "bi-people",
-      number: 0,
+      number: 9,
       name: "Clients satisfaits",
     },
     {
       icon: "bi-award",
-      number: 1,
+      number: 3,
       name: "Gagnant des nominés",
     },
   ];
@@ -32,7 +32,7 @@ function About() {
       bgColor: "rgb(108, 108, 229)",
     },
     {
-      name: "Javascript",
+      name: "Javascript/Java",
       lvl: 65,
       bgColor: "rgb(249, 215, 76)",
     },
